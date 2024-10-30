@@ -13,19 +13,24 @@ public class Person {
         sequencer++;
         this.id = sequencer;
     }
-    private int getNextId() {
+    private static int getNextId() {
         return ++sequencer;
     }
-    public String loanBook(book){
+   /* public String loanBook(book){
         return firstName + " " + lastName;
     }
 
     public String returnBook(book){
         return firstName + " " + lastName;
     }
+    */
     public String getPersonInformation(){
+        StringBuilder sb = new StringBuilder();
+        sb.append(firstName).append(" ").append(lastName);
+
         return firstName + " " + lastName;
     }
+
 
 
 
