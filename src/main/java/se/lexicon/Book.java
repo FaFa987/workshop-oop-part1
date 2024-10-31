@@ -9,6 +9,7 @@ public class Book {
     private Person borrower;
 
     public Book(String title, String author) {
+        this.id = IdBookGenerator.nextId();
         this.title = title;
         this.author = author;
         this.setAvailable(true);
@@ -32,7 +33,7 @@ public class Book {
     }
 
     public String getBookInformation() {
-        return id;
+        return "Id: " + id + " Title: " + title + " Author: " + author + " Available: " + available + " borrower: " + borrower;
 
     }
 

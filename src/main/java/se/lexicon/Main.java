@@ -6,9 +6,10 @@ public class Main {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-        System.out.println(IdBookGenerator.nextId());
-        System.out.println(IdBookGenerator.nextId());
-        System.out.println(IdBookGenerator.nextId());
+        Book book1 = new Book("red", "JK");
+        Book book2 = new Book("blue", "FH");
+        System.out.println(book1.getBookInformation());
+        System.out.println(book2.getBookInformation());
 
 
     }

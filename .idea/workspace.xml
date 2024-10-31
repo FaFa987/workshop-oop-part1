@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c78416f2-8245-4755-991d-6cb62c1e906d" name="Changes" comment="methods">
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/IdBookGenerator.java" afterDir="false" />
+    <list default="true" id="c78416f2-8245-4755-991d-6cb62c1e906d" name="Changes" comment="IdBookGenerator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/book.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730275933357</updated>
-      <workItem from="1730275934418" duration="7636000" />
+      <workItem from="1730275934418" duration="8412000" />
     </task>
     <task id="LOCAL-00001" summary="feilds">
       <option name="closed" value="true" />
@@ -97,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730278287945</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="IdBookGenerator">
+      <option name="closed" value="true" />
+      <created>1730332392286</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730332392286</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +111,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feilds" />
     <MESSAGE value="methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="methods" />
+    <MESSAGE value="IdBookGenerator" />
+    <option name="LAST_COMMIT_MESSAGE" value="IdBookGenerator" />
   </component>
 </project>
